@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auditoría Gratuita para Estudios de PMU y Micropigmentación Capilar | AARON</title>
+<meta name="description" content="Llena la agenda de tu estudio de PMU en 90 días, sin perseguir clientas por DM cada noche. Reserva tu auditoría gratuita.">
+<style>
+  :root {
+    --color-primary: #1A1614;
+    --color-primary-dark: #0D0B0A;
+    --color-secondary: #C1502E;
+    --color-secondary-dark: #8C3B21;
+    --color-accent: #C99A3E;
+    --color-background: #F3EEE6;
+    --color-surface: #EBE3D6;
+    --color-text-primary: #1F1B18;
+    --color-text-secondary: #6B5F56;
+    --color-border: #E3DACD;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--color-background);
+    color: var(--color-text-primary);
+    line-height: 1.5;
+  }
+
+  section { padding: 56px 20px; }
+
+  .wrap { max-width: 720px; margin: 0 auto; }
+
+  /* HERO */
+  .hero {
+    background: var(--color-primary);
+    color: var(--color-background);
+    text-align: center;
+    padding: 64px 20px 48px;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 42px);
+    line-height: 1.2;
+    margin: 0 0 20px;
+    font-weight: 800;
+  }
+  .hero p.subtitle {
+    font-size: 18px;
+    color: #D8CFC5;
+    max-width: 560px;
+    margin: 0 auto 32px;
+  }
+
+  /* CTA BUTTON */
+  .btn-cta {
+    display: inline-block;
+    width: 100%;
+    max-width: 420px;
+    background: var(--color-secondary);
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 18px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .btn-cta:hover { background: var(--color-secondary-dark); }
+
+  /* FORM */
+  form.lead-form {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: left;
+    background: var(--color-background);
+    color: var(--color-text-primary);
+    padding: 28px;
+    border-radius: 12px;
+  }
+  form.lead-form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  form.lead-form input[type="text"],
+  form.lead-form input[type="email"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 16px;
+    background: #FFFFFF;
+  }
+  .privacy-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+  }
+  .privacy-row input { margin-top: 3px; }
+
+  /* SECTIONS */
+  h2 {
+    font-size: 26px;
+    margin: 0 0 16px;
+    color: var(--color-text-primary);
+  }
+  .surface {
+    background: var(--color-surface);
+    border-radius: 12px;
+    padding: 32px 24px;
+  }
+
+  /* LEAD MAGNET */
+  .lead-magnet ul { padding-left: 20px; margin: 0 0 20px; }
+  .lead-magnet li { margin-bottom: 10px; }
+  .no-pitch {
+    font-style: italic;
+    color: var(--color-text-secondary);
+    border-left: 3px solid var(--color-accent);
+    padding-left: 14px;
+    margin: 20px 0;
+  }
+
+  /* PROOF / STATS */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin: 24px 0; }
+  .stat { text-align: center; background: var(--color-primary); border-radius: 12px; padding: 24px 12px; color: var(--color-background); }
+  .stat .num { font-size: 30px; font-weight: 800; color: var(--color-accent); display: block; }
+  .stat .label { font-size: 13px; color: #D8CFC5; }
+
+  /* FINAL CTA */
+  .final-cta { background: var(--color-primary); color: var(--color-background); text-align: center; }
+  .final-cta p { color: #D8CFC5; font-size: 17px; max-width: 520px; margin: 0 auto 28px; }
+
+  /* CENTER CTA CONTAINERS */
+  .cta-center { text-align: center; margin-top: 28px; }
+
+  footer {
+    padding: 32px 20px 48px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--color-text-secondary);
+  }
+  footer a { color: var(--color-text-secondary); }
+  footer p { max-width: 560px; margin: 0 auto 10px; }
+</style>
+</head>
+<body>
+
+<!-- [1][2][3] HERO: TITULO + SUBTITULO + CTA PRINCIPAL -->
+<section class="hero">
+  <div class="wrap">
+    <h1>Llena la agenda de tu estudio de PMU en 90 días, sin perseguir a nadie por DM cada noche</h1>
+    <p class="subtitle">Para dueñas de estudios de PMU y micropigmentación capilar que ya tienen clientela por boca-oreja, pero no saben si el próximo mes va a ser bueno o malo — aunque ya lo hayas intentado sola en Instagram y sientas que "el marketing no funciona para ti".</p>
+
+    <form class="lead-form" action="https://formspree.io/f/aaronmon.work@gmail.com" method="POST" id="audit-form">
+      <input type="hidden" name="_subject" value="Nueva solicitud de auditoría gratuita - AARON">
+      <input type="text" name="_gotcha" style="display:none">
+
+      <label for="nombre">Tu nombre *</label>
+      <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+
+      <label for="email">Tu mejor email *</label>
+      <input type="email" id="email" name="email" required placeholder="tu@email.com">
+
+      <div class="privacy-row">
+        <input type="checkbox" id="privacidad" required>
+        <label for="privacidad" style="font-weight:400; margin:0;">He leído y acepto la Política de Privacidad</label>
+      </div>
+
+      <button type="submit" class="btn-cta">QUIERO MI AUDITORÍA GRATUITA</button>
+    </form>
+  </div>
+</section>
+
+<!-- [5] LEAD MAGNET: LA AUDITORIA GRATUITA -->
+<section class="lead-magnet">
+  <div class="wrap surface">
+    <h2>Regalo seguro al confirmar tu inscripción</h2>
+    <p>En cuanto reserves tu plaza, recibirás una <strong>llamada de auditoría gratuita de 30-45 minutos</strong> donde:</p>
+    <ul>
+      <li>Revisamos de dónde vienen tus clientas ahora mismo y dónde se te están escapando leads sin que lo notes.</li>
+      <li>Identificamos si tu problema real es de tráfico, de seguimiento o de cierre.</li>
+      <li>Sales con un diagnóstico claro y accionable de qué pilar atacar primero — te lo lleves o no más adelante.</li>
+    </ul>
+    <p class="no-pitch">No es una llamada de venta disfrazada de auditoría: en esta fase no se pitchea ni se da precio, solo diagnóstico.</p>
+    <div class="cta-center">
+      <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+    </div>
+  </div>
+</section>
+
+<!-- [6] PRUEBA SOCIAL -->
+<section class="proof">
+  <div class="wrap">
+    <h2>Quién está detrás del sistema</h2>
+    <p style="color: var(--color-text-secondary);">AARON es un negocio recién lanzado — todavía no tenemos casos de estudios de PMU publicados. Estas son las credenciales verificables de quien diseña el sistema:</p>
+    <div class="stats">
+      <div class="stat">
+        <span class="num">300.000€</span>
+        <span class="label">vendidos a puerta fría en menos de 3 meses</span>
+      </div>
+      <div class="stat">
+        <span class="num">200.000€/año</span>
+        <span class="label">facturados 2 años consecutivos en ventas y marketing (sector estética/ink)</span>
+      </div>
+      <div class="stat">
+        <span class="num">8+ años</span>
+        <span class="label">de experiencia vendiendo en todos los canales</span>
+      </div>
+    </div>
+    <div class="cta-center">
+      <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+    </div>
+  </div>
+</section>
+
+<!-- [7] CTA FINAL -->
+<section class="final-cta">
+  <div class="wrap">
+    <h2 style="color: var(--color-background);">Antes de que se te vaya otro mes</h2>
+    <p>Cada mes que pasa sin un sistema de seguimiento es un mes más dependiendo de que el boca-oreja "haga el trabajo solo". No hace falta que seas la más barata de tu zona para tener la agenda llena — hace falta un proceso.</p>
+    <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+  </div>
+</section>
+
+<!-- [8] DISCLAIMER LEGAL -->
+<footer>
+  <p>Esta auditoría es un diagnóstico gratuito y sin compromiso. No se garantiza un resultado económico concreto: se garantiza el proceso de análisis y las recomendaciones aplicables a tu estudio. La responsabilidad de implementar las recomendaciones es tuya.</p>
+  <p><a href="#">Aviso Legal</a> · <a href="#">Política de Privacidad</a> · <a href="#">Política de Cookies</a></p>
+</footer>
+
+</body>
+</html>
