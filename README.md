@@ -30,3 +30,4 @@ Este repo está pensado para servirse directo con GitHub Pages:
 ## Contenido fuente
 
 El copy de esta landing viene del proyecto AARON en Business Operations OS — ver `Brand Setup/3_Oferta.md`, `4_Avatares.md` y `5_Selling_Points.md` para el contexto completo de negocio detrás de cada bloque.
+
