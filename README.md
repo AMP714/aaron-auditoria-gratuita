@@ -1,6 +1,6 @@
-# Landing AARON — Auditoría Gratuita
+# Landing La Faixa Blanca — Auditoría Gratuita
 
-Landing de captura para reservar la llamada de auditoría gratuita de AARON (sistema de captación + cierre para estudios de PMU y micropigmentación capilar).
+Landing de captura para reservar la llamada de auditoría gratuita de La Faixa Blanca (sistema de captación + cierre para estudios de PMU y micropigmentación capilar).
 
 ## Antes de publicar
 
@@ -29,5 +29,5 @@ Este repo está pensado para servirse directo con GitHub Pages:
 
 ## Contenido fuente
 
-El copy de esta landing viene del proyecto AARON en Business Operations OS — ver `Brand Setup/3_Oferta.md`, `4_Avatares.md` y `5_Selling_Points.md` para el contexto completo de negocio detrás de cada bloque.
+El copy de esta landing viene del proyecto La Faixa Blanca en Business Operations OS — ver `Brand Setup/3_Oferta.md`, `4_Avatares.md` y `5_Selling_Points.md` para el contexto completo de negocio detrás de cada bloque.
 
