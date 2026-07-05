@@ -61,6 +61,12 @@
     max-width: 560px;
     margin: 0 auto 32px;
   }
+  .hero .trust-line {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #A99C90;
+    letter-spacing: 0.02em;
+  }
 
   /* CTA BUTTON */
   .btn-cta {
@@ -152,6 +158,50 @@
   }
   .authority-intro strong { color: var(--color-secondary); }
 
+  /* MECANISMO / COMO FUNCIONA */
+  .steps { display: grid; gap: 16px; margin: 24px 0; }
+  .step { display: flex; gap: 16px; align-items: flex-start; background: var(--color-surface); border-radius: 12px; padding: 20px; }
+  .step .step-num {
+    flex-shrink: 0;
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    color: #FFFFFF;
+    font-weight: 800;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .step h3 { margin: 0 0 4px; font-size: 17px; }
+  .step p { margin: 0; color: var(--color-text-secondary); font-size: 15px; }
+
+  /* COMPARATIVA */
+  .compare { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0; }
+  .compare-col { border-radius: 12px; padding: 22px 18px; background: var(--color-surface); }
+  .compare-col.highlight { background: var(--color-primary); color: var(--color-background); border: 2px solid var(--color-accent); }
+  .compare-col h3 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.04em; margin: 0 0 14px; }
+  .compare-col.highlight h3 { color: var(--color-accent); }
+  .compare-col ul { margin: 0; padding-left: 18px; font-size: 14px; }
+  .compare-col li { margin-bottom: 10px; }
+
+  /* FAQ */
+  .faq-item {
+    border-bottom: 1px solid var(--color-border);
+    padding: 18px 0;
+  }
+  .faq-item summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    list-style: none;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item summary::before { content: "+ "; color: var(--color-secondary); font-weight: 800; }
+  .faq-item[open] summary::before { content: "– "; }
+  .faq-item p { margin: 10px 0 0; color: var(--color-text-secondary); font-size: 15px; }
+
+  /* REASSURANCE BULLETS */
+  .reassure { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 22px; margin: 20px 0 8px; font-size: 13px; color: #C9BEB2; }
+
   /* FINAL CTA */
   .final-cta { background: var(--color-primary); color: var(--color-background); text-align: center; }
   .final-cta p { color: #D8CFC5; font-size: 17px; max-width: 520px; margin: 0 auto 28px; }
@@ -195,6 +245,85 @@
 
       <button type="submit" class="btn-cta">QUIERO MI AUDITORÍA GRATUITA</button>
     </form>
+    <p class="trust-line">Sin compromiso · No se pitchea ni se da precio en la llamada · 30-45 minutos</p>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA EL SISTEMA -->
+<section class="mechanism">
+  <div class="wrap">
+    <h2>Cómo funciona el sistema</h2>
+    <p style="color: var(--color-text-secondary); margin-top:0;">4 capas integradas — no es "te traigo leads y ya", es leads + cierre + base de datos + automatización trabajando juntos.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <div>
+          <h3>Auditoría inicial</h3>
+          <p>Diagnóstico de 30-45 min: de dónde vienen tus clientas hoy y dónde se te están escapando leads sin que lo notes.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <div>
+          <h3>Reactivación de tu base de datos + reseñas</h3>
+          <p>Antes de gastar en captar gente nueva, activamos tu propia lista de clientas pasadas — citas extra sin coste de ads.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <div>
+          <h3>Speed-to-lead</h3>
+          <p>Respuesta automática a cada DM o consulta en menos de 60 segundos — el seguimiento lo lleva el sistema, no tú a las 23h desde el móvil.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">4</span>
+        <div>
+          <h3>Scripts de venta por DM + soporte continuo</h3>
+          <p>Diseño del argumento de cierre para tus consultas + acompañamiento por WhatsApp y revisión mensual — para que defiendas tu precio, no que compitas por él.</p>
+        </div>
+      </div>
+    </div>
+    <div class="cta-center">
+      <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+    </div>
+  </div>
+</section>
+
+<!-- POR QUÉ NO ES LO MISMO QUE UNA AGENCIA -->
+<section class="differentiation">
+  <div class="wrap">
+    <h2>Por qué esto no es "otra agencia de marketing"</h2>
+    <p style="color: var(--color-text-secondary); margin-top:0;">Las agencias genéricas entregan un informe de likes. Hacerlo tú sola te deja sin tiempo. El sistema conecta captación con cierre real.</p>
+    <div class="compare">
+      <div class="compare-col">
+        <h3>Agencia genérica</h3>
+        <ul>
+          <li>Entrega contenido "bonito"</li>
+          <li>Sin conexión con tus ventas reales</li>
+          <li>Caja negra: no ves el proceso</li>
+        </ul>
+      </div>
+      <div class="compare-col">
+        <h3>Hacerlo tú sola</h3>
+        <ul>
+          <li>Publicas sin estrategia de seguimiento</li>
+          <li>Sin tiempo para responder rápido a cada lead</li>
+          <li>Sin scripts de cierre — improvisas cada DM</li>
+        </ul>
+      </div>
+      <div class="compare-col highlight">
+        <h3>La Faixa Blanca</h3>
+        <ul>
+          <li>Sistema conectado directo al cierre de venta</li>
+          <li>Seguimiento automatizado, no manual</li>
+          <li>Proceso visible: auditoría + Loom mensual de estado</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cta-center">
+      <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+    </div>
   </div>
 </section>
 
@@ -245,12 +374,44 @@
   </div>
 </section>
 
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <h2>Antes de que preguntes</h2>
+    <details class="faq-item">
+      <summary>Ya lo intenté sola en Instagram y no funcionó, ¿por qué sería diferente esta vez?</summary>
+      <p>Porque publicar no es lo mismo que vender. El problema casi nunca es de contenido — es de seguimiento: nadie responde a tiempo a los DMs ni tiene un script de cierre. El sistema ataca justo eso.</p>
+    </details>
+    <details class="faq-item">
+      <summary>No tengo tiempo, ¿cuánto me va a quitar esto?</summary>
+      <p>La auditoría dura 30-45 minutos. El resto lo monta el sistema (automatización + scripts), no tú — el objetivo es quitarte tiempo de encima, no sumarte tareas.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Ya pagué por una agencia antes y no vi resultados, ¿cómo sé que esta vez es diferente?</summary>
+      <p>No te entrego un informe de likes y desaparezco: ves el proceso completo (reactivación, respuesta a leads, scripts de venta) con Loom mensual de estado. Se garantiza el proceso, no una cifra de resultado — más honesto que una promesa vacía.</p>
+    </details>
+    <details class="faq-item">
+      <summary>¿Y si tampoco funciona?</summary>
+      <p>Por eso se empieza siempre con una auditoría sin compromiso: ves el diagnóstico de tu caso concreto antes de decidir nada.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Acabo de empezar y no tengo mucho presupuesto, ¿esto es para mí?</summary>
+      <p>Sí — el setup está pensado para estudios que están escalando, no solo para negocios ya consolidados. La diferencia no es tu experiencia, es tener un sistema de venta detrás.</p>
+    </details>
+  </div>
+</section>
+
 <!-- [7] CTA FINAL -->
 <section class="final-cta">
   <div class="wrap">
     <h2 style="color: var(--color-background);">Antes de que se te vaya otro mes</h2>
     <p>Cada mes que pasa sin un sistema de seguimiento es un mes más dependiendo de que el boca-oreja "haga el trabajo solo". No hace falta que seas la más barata de tu zona para tener la agenda llena — hace falta un proceso.</p>
     <a href="#audit-form" class="btn-cta" style="text-decoration:none;">QUIERO MI AUDITORÍA GRATUITA</a>
+    <div class="reassure">
+      <span>Sin compromiso</span>
+      <span>Sin pitch de venta en la llamada</span>
+      <span>Solo 30-45 minutos</span>
+    </div>
   </div>
 </section>
 
