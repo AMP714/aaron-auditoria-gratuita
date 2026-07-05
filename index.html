@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Auditoría Gratuita para Estudios de PMU y Micropigmentación Capilar | AARON</title>
+<title>Auditoría Gratuita para Estudios de PMU y Micropigmentación Capilar | LA FAIXA BLANCA</title>
 <meta name="description" content="Llena la agenda de tu estudio de PMU en 90 días, sin perseguir clientas por DM cada noche. Reserva tu auditoría gratuita.">
 <style>
   :root {
@@ -39,6 +39,15 @@
     color: var(--color-background);
     text-align: center;
     padding: 64px 20px 48px;
+  }
+  .hero .kicker {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+    margin-bottom: 16px;
   }
   .hero h1 {
     font-size: clamp(28px, 5vw, 42px);
@@ -133,8 +142,15 @@
   /* PROOF / STATS */
   .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin: 24px 0; }
   .stat { text-align: center; background: var(--color-primary); border-radius: 12px; padding: 24px 12px; color: var(--color-background); }
-  .stat .num { font-size: 30px; font-weight: 800; color: var(--color-accent); display: block; }
+  .stat .num { font-size: 26px; font-weight: 800; color: var(--color-accent); display: block; line-height: 1.2; }
   .stat .label { font-size: 13px; color: #D8CFC5; }
+
+  .authority-intro {
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  .authority-intro strong { color: var(--color-secondary); }
 
   /* FINAL CTA */
   .final-cta { background: var(--color-primary); color: var(--color-background); text-align: center; }
@@ -158,11 +174,12 @@
 <!-- [1][2][3] HERO: TITULO + SUBTITULO + CTA PRINCIPAL -->
 <section class="hero">
   <div class="wrap">
+    <span class="kicker">La Faixa Blanca</span>
     <h1>Llena la agenda de tu estudio de PMU en 90 días, sin perseguir a nadie por DM cada noche</h1>
     <p class="subtitle">Para dueñas de estudios de PMU y micropigmentación capilar que ya tienen clientela por boca-oreja, pero no saben si el próximo mes va a ser bueno o malo — aunque ya lo hayas intentado sola en Instagram y sientas que "el marketing no funciona para ti".</p>
 
     <form class="lead-form" action="https://formspree.io/f/aaronmon.work@gmail.com" method="POST" id="audit-form">
-      <input type="hidden" name="_subject" value="Nueva solicitud de auditoría gratuita - AARON">
+      <input type="hidden" name="_subject" value="Nueva solicitud de auditoría gratuita - La Faixa Blanca">
       <input type="text" name="_gotcha" style="display:none">
 
       <label for="nombre">Tu nombre *</label>
@@ -198,15 +215,20 @@
   </div>
 </section>
 
-<!-- [6] PRUEBA SOCIAL -->
+<!-- [6] PRUEBA SOCIAL / AUTORIDAD -->
 <section class="proof">
   <div class="wrap">
     <h2>Quién está detrás del sistema</h2>
-    <p style="color: var(--color-text-secondary);">AARON es un negocio recién lanzado — todavía no tenemos casos de estudios de PMU publicados. Estas son las credenciales verificables de quien diseña el sistema:</p>
+    <p class="authority-intro">No soy un marketer que aprendió a vender leyendo un blog. Llevo <strong>8+ años vendiendo</strong> puerta a puerta, por teléfono y en digital — me ascendieron a <strong>Director Comercial</strong> por resultados, no por antigüedad, y llegué a formar y dirigir equipos comerciales propios. Los últimos 2 años los pasé metido de lleno en el ecosistema de la estética: vendiendo y haciendo todo el marketing de una academia de formación de tatuadores y su estudio — a un paso técnico de la micropigmentación.</p>
+    <p style="color: var(--color-text-secondary);">La Faixa Blanca es un proyecto recién lanzado — todavía no hay casos publicados de estudios de PMU. Estas son las credenciales verificables de quien lo dirige:</p>
     <div class="stats">
       <div class="stat">
-        <span class="num">300.000€</span>
-        <span class="label">vendidos a puerta fría en menos de 3 meses</span>
+        <span class="num">+2.000.000€</span>
+        <span class="label">vendidos a puerta fría a lo largo de su carrera</span>
+      </div>
+      <div class="stat">
+        <span class="num">Director Comercial</span>
+        <span class="label">ascenso por resultados — formación y gestión de equipos comerciales + sede regional</span>
       </div>
       <div class="stat">
         <span class="num">200.000€/año</span>
@@ -240,4 +262,3 @@
 
 </body>
 </html>
-<!-- retry Sun Jul  5 18:04:32 CEST 2026 -->
