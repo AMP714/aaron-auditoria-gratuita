@@ -130,15 +130,21 @@
   }
 
   /* QUE TE OFREZCO */
-  .offer-list { list-style: none; margin: 24px 0; padding: 0; }
-  .offer-list li {
-    background: var(--color-surface);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 14px;
-    font-size: 16px;
+  .offer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 28px 0;
   }
-  .offer-list li strong { color: var(--color-secondary); }
+  .offer-card {
+    background: var(--color-surface);
+    border-radius: 14px;
+    padding: 24px 20px;
+    text-align: center;
+  }
+  .offer-card .icon { font-size: 32px; display: block; margin-bottom: 12px; }
+  .offer-card h3 { margin: 0 0 8px; font-size: 16px; color: var(--color-secondary); }
+  .offer-card p { margin: 0; font-size: 14px; color: var(--color-text-secondary); }
 
   /* POR QUE SOLO 3 */
   .why-three {
@@ -196,7 +202,7 @@
 
       <button type="submit" class="btn-cta">QUIERO SER UNA DE LAS 3</button>
     </form>
-    <p class="trust-line">Sin compromiso · Sin pitch de venta · Solo una charla honesta de 30-45 minutos</p>
+    <p class="trust-line">Sin compromiso · Solo una charla honesta de 30-45 minutos</p>
   </div>
 </section>
 
@@ -204,12 +210,39 @@
 <section class="what-i-offer">
   <div class="wrap">
     <h2>Qué te ofrezco</h2>
-    <ul class="offer-list">
-      <li><strong>Que no se te escapen</strong> las clientas que ya te escriben — muchas veces no faltan clientas, falta contestar a tiempo.</li>
-      <li><strong>Que cierres mejor</strong> las consultas que ya tienes, sin bajar el precio.</li>
-      <li><strong>Que actives a tus clientas antiguas</strong>, antes de gastarte un euro en anuncios.</li>
-      <li><strong>Que consigas clientas nuevas</strong> con campañas de captación, cuando ya tengas el resto funcionando.</li>
-    </ul>
+    <div class="offer-grid">
+      <div class="offer-card">
+        <span class="icon">💬</span>
+        <h3>No perder clientas</h3>
+        <p>Que no se te escapen las que ya te escriben — muchas veces no faltan clientas, falta contestar a tiempo.</p>
+      </div>
+      <div class="offer-card">
+        <span class="icon">✅</span>
+        <h3>Cerrar mejor</h3>
+        <p>Que cierres mejor las consultas que ya tienes, sin bajar el precio.</p>
+      </div>
+      <div class="offer-card">
+        <span class="icon">📋</span>
+        <h3>Recuperar clientas</h3>
+        <p>Que actives a tus clientas antiguas, antes de gastarte un euro en anuncios.</p>
+      </div>
+      <div class="offer-card">
+        <span class="icon">📈</span>
+        <h3>Captar clientas nuevas</h3>
+        <p>Con campañas de captación, cuando ya tengas el resto funcionando.</p>
+      </div>
+    </div>
+    <div class="cta-center">
+      <a href="#postular-form" class="btn-cta" style="text-decoration:none;">QUIERO SER UNA DE LAS 3</a>
+    </div>
+  </div>
+</section>
+
+<!-- NO VENGO DE FUERA DEL SECTOR -->
+<section class="about-me">
+  <div class="wrap">
+    <h2>No vengo de fuera del sector</h2>
+    <p>Los últimos 2 años he vendido y llevado todo el marketing de una academia de formación de tatuadores y su propio estudio — un sector a un paso técnico de la micropigmentación. Facturé 200.000€/año, dos años seguidos, cerrando clientas reales, no publicando bonito. Antes de eso, 8 años vendiendo puerta fría, por teléfono y en digital.</p>
     <div class="cta-center">
       <a href="#postular-form" class="btn-cta" style="text-decoration:none;">QUIERO SER UNA DE LAS 3</a>
     </div>
@@ -233,11 +266,10 @@
 <section class="final-cta">
   <div class="wrap">
     <h2 style="color: var(--color-background);">¿Eres una de las 3?</h2>
-    <p>No hace falta que seas la más barata de tu zona para tener la agenda llena. Cuéntame de tu estudio y hablamos claro, sin humo.</p>
+    <p>No hace falta que seas la más barata de tu zona para tener la agenda llena. Cuéntame de tu estudio y hablamos claro.</p>
     <a href="#postular-form" class="btn-cta" style="text-decoration:none;">QUIERO SER UNA DE LAS 3</a>
     <div class="reassure">
       <span>Sin compromiso</span>
-      <span>Sin pitch de venta</span>
       <span>Solo 30-45 minutos</span>
     </div>
   </div>
