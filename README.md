@@ -24,8 +24,9 @@ Este repo está pensado para servirse directo con GitHub Pages:
 
 ## Estructura
 
-- `index.html` — la landing completa (título, subtítulo, formulario, lead magnet, prueba social, CTA final, disclaimer).
-- Paleta de marca "Tinta y Bronce" embebida como CSS variables en el propio `index.html`.
+- `index.html` — la landing completa (título, subtítulo, formulario, qué te ofrezco, sobre mí, por qué solo 3, CTA final, disclaimer).
+- Paleta de marca v2.0 "Del Blanco al Negro" (Negro #000000 / Blanco #FFFFFF / Rojo Pantone 186 C #C8102E) embebida como CSS variables en el propio `index.html` — ver `../../docs/brand-guidelines.md` para el detalle completo y el racional de marca.
+- Diseño y estructura visual (badges con dot, hero con glow, tarjetas oscuras con borde sutil, CTA en píldora roja) inspirados en una landing de referencia aportada por Aaron, adaptados al copy y al formulario de captación reales de La Faixa Blanca.
 
 ## Contenido fuente
 
